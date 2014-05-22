@@ -1,6 +1,7 @@
 styledtable
 ===========
 
+It is a jQuery plugin for tables.
 The jQuery plugin adds classes for tables within THEAD and TBODY
 + one class is added for 'row-even' and 'row-odd' rows inner TBODY
 + adds cat01, cat02... by line number inner TBODY
