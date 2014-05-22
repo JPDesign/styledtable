@@ -16,20 +16,17 @@ The jQuery plugin adds classes for tables within THEAD and TBODY
 jQuery is still needed, tested with: jQuery v1.7.2 and jQuery v1.10.2
 
 Usage:
-			// dont forget the jquery.js library
-			//
-			// dieable columnMode
-			// add cat01 for line number 1
-			// add cat02 for line number 2 and 3 ... 
+Dont forget the jquery.js library. Set some options like this - disable columnMode, add cat01 for line number 1, add cat02 for line number 2 and 3 ... 
+			
             $(document).ready(function(){
             	var options = {
 	            	columnMode: false,
-					cat01: {from: 1, to: 1},
-					cat02: {from: 2, to: 3},
-					cat03: {from: 4, to: 4},
-					cat04: {from: 5, to: 15},
-					cat05: {from: 16, to: 16},
-					cat06: {from: 17, to: 18}
+			cat01: {from: 1, to: 1},
+			cat02: {from: 2, to: 3},
+			cat03: {from: 4, to: 4},
+			cat04: {from: 5, to: 15},
+			cat05: {from: 16, to: 16},
+			cat06: {from: 17, to: 18}
             	};
             	
             	// select a TABLE
